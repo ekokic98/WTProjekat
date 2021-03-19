@@ -1,0 +1,4 @@
+RPR,Predavanje,17,20,Ponedjeljak
+OOI,Predavanje,17,20,Utorak
+LD,Predavanje,9,12,Srijeda
+LD3,undefined,9,12,undefined

@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background: linear-gradient(#b4c7dc, #d5dfea);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  color: #6f94ba;
+}
+
+fieldset {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  min-width: 200px;
+  border-color: #6f94ba;
+  color: #6f94ba;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+#raspored {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  height: fit-content;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.lijevo,
+.desno {
+  width: 25%;
+  height: 375px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.trenutna {
+  width: 30%;
+  height: 450px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+div.scrollmenu {
+  background-color: #333;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+@media only screen and (max-width: 600px) {
+  .lijevo {
+    display: none;
+  }
+
+  .trenutna {
+    height: 225px;
+    margin: 60px auto 20px auto;
+  }
+
+  .desno {
+    height: 200px;
+    margin: auto;
+  }
+
+  div.scrollmenu {
+    background-color: #333;
+    white-space: nowrap;
+  }
+
+  div.scrollmenu a {
+    font-size: 8pt;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+  }
+
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  #raspored {
+    width: 90%;
+    margin: auto;
+    align-items: flex-end;
+    height: fit-content;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+}
